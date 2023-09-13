@@ -1,0 +1,44 @@
+div.head-1 {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 15px 90px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    margin: 0px !important;
+}
+
+div.head-1 .info {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 20px !important;
+}
+
+div.head-1 .info i {
+    color: white;
+    margin: 0px;
+    align-items: center;
+}
+
+div.head-1 .btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+div.head-1 .btns i {
+    color: white;
+    margin: 0px;
+    align-items: center;
+}
+
+div.head-1 .info p.para {
+    color: white;
+    align-items: center;
+    margin: 0px;
+}
+
+div.head-1 .btns button.btn {
+    all: unset;
+    color: white;
+}
